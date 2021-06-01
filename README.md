@@ -17,7 +17,7 @@ A simple application that shows user data recieved from API call. Also, enables 
 * Jest
 * Enzyme
 
-##Setup
+## Setup
 To run this project, install it locally using git clone command.
 
 After that, go to the root directory and write in your terminal:
