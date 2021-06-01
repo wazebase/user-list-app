@@ -1,0 +1,58 @@
+$padding: 8px 12px;
+$background-color:rgba(184, 184, 184, 0.673);
+
+form {
+    background-color: $background-color !important;
+    h3{
+        padding: $padding;
+        margin-bottom: 10px;
+    }
+}
+label {
+    padding: $padding;
+    display: grid;
+    align-items: center;
+
+    input,select,.ant-picker-input,
+    .ant-input,.ant-select,.ant-picker {
+        margin-top: 5px;
+        width:200px;
+        height: 35px;
+    }
+
+}
+
+label:nth-child(5) {
+    margin-bottom: 60px;
+}
+#submit {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  
+   input{
+    width: 50%;
+    padding: -5px -5px;
+  } 
+}
+
+@media only screen and (max-width: 800px) {
+    $padding: 4px 16px;
+    #submit{
+        margin-left:15px;
+        align-items:start;
+        justify-items: start;
+      
+        input{
+            width: 200px;
+        }
+    }
+    label:nth-child(5) {
+        margin-bottom: 30px;
+    }
+    label {
+        padding:$padding;
+    }
+}

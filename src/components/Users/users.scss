@@ -1,0 +1,18 @@
+#list {
+        $padding: 3px 12px;
+        h3{
+        padding: $padding;
+        margin-bottom:30px;
+        }
+        li {
+           text-decoration: underline;
+           list-style-type: none;     
+           padding: $padding;
+           color: black;
+           font-size: 16px;
+           transition: color .3s;
+           &:hover {
+                color: grey;
+           }
+        }    
+}

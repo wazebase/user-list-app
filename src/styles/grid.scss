@@ -1,0 +1,56 @@
+$margin-left: 15px;
+$padding: 8px 12px;
+
+* {
+    box-sizing: border-box;
+}
+
+body,html {
+    margin: 0
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    display:grid;
+    grid-template-rows: min-content auto;
+}
+
+#navbar {
+    margin-top: 10px;
+}
+
+ .form,#home,.user-box,#pagination-nav,#button-div{
+    margin-left:$margin-left;
+}
+
+ .form,#home,.user-box,#pagination-nav,#button-div {
+    margin-top: 20px;
+}
+
+#button-div {
+    button{
+        padding:$padding;
+        margin-top: 10px;
+    }
+}
+
+.form {
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+
+}
+
+.user-box{
+    width:80%;
+    height: 77vh;
+    border: 1px solid black;
+    box-shadow: 1.5px 1px 1px black;
+    background-color: rgba(184, 184, 184, 0.673);
+}
+
+@media only screen and (max-width: 800px) {
+    .user-box {
+        width:90%;
+    }
+}

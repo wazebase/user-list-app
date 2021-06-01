@@ -1,0 +1,17 @@
+#navbar {
+    margin-left: 10px !important;
+    li{
+        font-size:16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #navbar {
+        li{
+            font-size:14px;
+            letter-spacing: 0.2px;
+        }
+    }
+}
