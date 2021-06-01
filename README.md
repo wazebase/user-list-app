@@ -16,6 +16,7 @@ A simple application that shows user data recieved from API call. Also, enables 
 * Ant Design library
 * Jest
 * Enzyme
+* NPM
 
 ## Setup
 To run this project, install it locally using git clone command.
